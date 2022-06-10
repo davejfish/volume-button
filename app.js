@@ -24,7 +24,7 @@ down.addEventListener('click', () => {
     } 
     else {
         volume--;
-        volumeDisplay.textContent = volume;
+        updateVolume();
     }
 });
 
@@ -34,7 +34,7 @@ up.addEventListener('click', () => {
     } 
     else {
         volume++;
-        volumeDisplay.textContent = volume;
+        updateVolume();
     }
 });
 
